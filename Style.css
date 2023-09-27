@@ -66,5 +66,11 @@ p:first-letter {font-size: 2em;}
     box-shadow: 4px 4px 4px #3A6B35;
     filter: brightness(75%);}
 
+.entete {}
+.menu {background-color:#E3B448; float: left 10em ;}
+.contenu {margin-left: 10em;}
+.pied {}
+
+
 
 
