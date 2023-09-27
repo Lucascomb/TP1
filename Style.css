@@ -1,0 +1,70 @@
+body {
+    background-color:#CBD18F ; 
+    border:#3A6B35 solid 3px ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10% ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2% ;
+    padding-right: 2%;
+    font-family: sans-serif;}
+
+html {
+    background-color:#E3B448 ;}
+
+h1 {
+    border-bottom: solid 1px #3A6B35 ;
+    margin-top: 30px; 
+    font-weight: 2em; 
+    font-family: serif; 
+    text-align: center; 
+    font-weight: normal; 
+    text-transform:uppercase;}
+
+h2 {
+    color: #3A6B35;
+    font-weight: 1em;}
+
+hr { 
+    border: solid 1px #3A6B35}
+
+footer {
+    color: grey;
+    font-size: 70%;
+    font-weight: lighter;
+    margin-bottom: 10px;}
+
+strong {
+    color: #3A6B35;}
+
+.ville {
+    font-weight: bolder;}
+.poste {
+    font-variant-caps: small-caps;
+    font-weight: lighter;}
+
+.logo {text-align: center;}
+
+.reseau {
+    width: 50px;
+    height: 50px;}
+
+.destination {
+        width: 200px;
+        height: 200px;}
+        
+a:visited {color:#3A6B35;}
+a:hover {color:#E3B448;}
+
+p:first-letter {font-size: 2em;}
+
+img:hover {
+    transform: rotate(10deg); 
+    transition: 0,5s; 
+    box-shadow: 4px 4px 4px #3A6B35;
+    filter: brightness(75%);}
+
+
+
