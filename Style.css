@@ -60,7 +60,7 @@ a:hover {color:#E3B448;}
 
 p:first-letter {font-size: 2em;}
 
-img:hover {
+.container img:hover {
     transform: rotate(10deg); 
     transition: 0,5s; 
     box-shadow: 4px 4px 4px #3A6B35;
