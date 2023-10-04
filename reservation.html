@@ -22,7 +22,68 @@
 
                 </ul>
             </div>
-            <div class="contenu"> à compléter   
+            <div class="contenu"> 
+                <form method="get" action="confirmation.html">Veuillez entrez vos coordonnées pour réserver votre voyage.
+                </form>
+                    <div>    
+                        <label for="nombre">Nombre de personnes :</label>
+                        <input type="number" name="nombre" placeholder="Ex:2" min="1" required> (*)
+                    </div>
+                        
+                    <div>   
+                        <label for="date">Date de réservation :</label> 
+                        <input type="date" name="date" required>(*)
+                    </div>
+                    
+                    <div>
+                        <label for="destination">Destination choisie :</label>
+                        <select name="destination" id="destination" required>
+                            <option value="foix">Foix</option>
+                            <option value="sarlat">Sarlat</option>
+                            <option value="ardeches">Gorge de l'Ardèches</option>
+                            <option value="canal du midi">Canal du midi</option>
+                        </select> (*)
+                    </div>
+                    
+                    <div>
+                        <label for="disponibilité"></label>
+                        <input type="button" value="Vérifier la disponibilité" required>
+                    </div>
+                    
+                    <div>
+                        <label for="appellation">Appellation :</label>
+                        <select name="appellation" id="appellation" required>
+                            <option value="M.">M.</option>
+                            <option value="Mme">Mme</option>
+                        </select> (*)
+                    </div>
+                    
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text" placeholder="Entrez votre nom" required> (*)
+                    </div>
+                    
+                    <div>
+                        <label for="tel">Numéro de téléphone :</label>
+                        <input type="text" id="tel" placeholder=" Ex: 0123456789">
+                    </div>
+
+                    <div>
+                        <label for="mail">Adresse e-mail :</label>
+                        <input type="text" name="mail" id="id_mail" placeholder="Ex: prenom.nom@fai.com" required> (*)
+                    </div> 
+
+                    <div>
+                        <label for="pay">Moyen de paiement :</label>
+                        <input type="radio" id="pay" value="Chèques vacances"> (*)
+                    </div>
+                        
+                    <div>
+                        <label for="com">Commentaires :</label>
+                        <input type="text" placeholder="Entrez votre commentaires">
+                    </div>
+
+
             </div>
         </div>
         <footer> <hr>  <br> Copyright C 2022 | Combelles (Pour me contacter: <a href="lucas.combelles@ut-capitole.fr" target="_blank">m'écrire</a>)
